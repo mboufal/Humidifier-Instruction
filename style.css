@@ -1,27 +1,44 @@
 body{
-margin: 0;
-/* display: grid; */
-/* grid-gap: 10px; */
-/* grid-template-rows: auto 1fr auto; */
-/* min-height: 100vh; */
+	margin: auto;
+	font-family: Verdana;
 }
 
-.container {
-	width: 100vw;
-	height: 100vh;
-	
-	display: grid;
-    grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 1fr 1fr;
-	
-	gap: 10px;
-	
-	padding: 10px;
-	box-sizing: border-box;
+h1{
+	font-size: 2em;
+	text-align: center;
 }
-.cointainer div{
+
+h2{
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+.instruction{
+	margin-top: 30px;
+	float: left;
+	width: 50%;
+}
+
+.text1{
+	height: 100px;
+	display: block;
 	padding: 10px;
 	border: 1px;
-	border-color: black;
-	
+}
+.text2{
+	height: 100px;
+	display: block;
+	padding: 10px;
+	border: 1px;
+}
+.text1:hover{
+	background-color: green;
+}
+.text2:hover{
+	background-color: red;
+}
+
+@media screen and (max-width: 900px){
+.logo{
+	width: 100%;
 }
