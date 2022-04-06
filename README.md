@@ -1,2 +1,3 @@
 # Humidifier-Instruction
-Document Design - Humidifier Instruction Project
+Humidifier Instruction Online
+* Document Design (COM-424 Fall 2021)
